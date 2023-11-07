@@ -3,7 +3,7 @@ by, K. Thach
 
 ## Introduction 
 
-Super Resolution GAN (SRGAN) Links to an external site.is a deep learning architecture that uses a combination of GANs and convolutional neural networks (CNNs) to generate high-resolution images from low-resolution images. The idea behind SRGAN is to train a generator network to create high-resolution images that are as close as possible to the real high-resolution images, and a discriminator network that is trained to distinguish between the generated high-resolution images and real high-resolution images. The training process involves feeding low-resolution images to the generator, which then generates a high-resolution image. The discriminator then evaluates the generated high-resolution image and provides feedback to the generator to improve the quality of the generated image. The generator and discriminator networks are trained iteratively until the generated images are of sufficient quality. Super Resolution GAN has many practical applications, such as in medical imaging, satellite imagery, and video processing. It can help to enhance the quality of low-resolution images, making them more useful for analysis and decision-making.
+Super Resolution GAN (SRGAN) is a deep learning architecture that uses a combination of GANs and convolutional neural networks (CNNs) to generate high-resolution images from low-resolution images. The idea behind SRGAN is to train a generator network to create high-resolution images that are as close as possible to the real high-resolution images, and a discriminator network that is trained to distinguish between the generated high-resolution images and real high-resolution images. The training process involves feeding low-resolution images to the generator, which then generates a high-resolution image. The discriminator then evaluates the generated high-resolution image and provides feedback to the generator to improve the quality of the generated image. The generator and discriminator networks are trained iteratively until the generated images are of sufficient quality. Super Resolution GAN has many practical applications, such as in medical imaging, satellite imagery, and video processing. It can help to enhance the quality of low-resolution images, making them more useful for analysis and decision-making.
 
 ## Steps:
 
@@ -25,6 +25,8 @@ Part 3
 * Compare the performance of both models using different metrics such as F1, Accuracy, AUC
 * Since there is limited time to use Google Colab GPU every 12 hours, save your models after each n epoch
 
+## Implementation of Steps
+
 To implement this code locally begin with the `start.py`. This file will help install the `virtual environment` as `.env` and all dependencies required. 
 
 1. `midterm-GAN.ipynb` is the notebook that corresponds with **Part 1** 
@@ -34,9 +36,18 @@ To implement this code locally begin with the `start.py`. This file will help in
 
 3. `Train-Compare.ipynb` is used to train *Model B*. Model B utilizes the SRGAN images to train a binary classifier. This training will use the same model in `Model A`. After training the model, the performance of `Model A` is compared to `Model B`. This notebook corresponds with **Part 3**.
 
+### Actual Colab scripts
 
 Click on the ink below to view and try out the training in Google CoLab. 
 See [CoLab Code](https://drive.google.com/file/d/1acxD701rilkEWaVNHjSInDNiU3-LQXqH/view?usp=drive_link)
+
+## Model Summaries
+
+
+## Model Training and Outcomes
+
+
+## Comparisons 
 
 ## Resources
 
