@@ -34,20 +34,14 @@ To implement this code locally begin with the `start.py`. This file will help in
 
 2. `SRResNet.ipynb` is used to train the SRGAN model. The model is trained using the Cat vs. Dog dataset, which is imported via the `td_load()` function. The dataset structure is altered as such: . The training is expected to run for 150 epochs / iterations. This notebook corresponds with **Part 2**.
 
-3. `compare-models.ipynb` is used to train *Model B*. Model B utilizes the SRGAN images to train a binary classifier. This training will use the same model in `Model A`. After training the model, the performance of `Model A` is compared to `Model B`. This notebook corresponds with **Part 3**.
+3. `compare-models.ipynb` is used to train *Model B*. Model B utilizes the SRGAN images to train a binary classifier. This training will use the same model structure in `Model A`. After training the model, the performance of `Model A` is compared to `Model B`. This notebook corresponds with **Part 3**.
 
 ### Actual Colab scripts, training and outputs
 
-Click on the link below to view the full training in Google CoLab. 
+Click on the link below to view the full training in Google CoLab, resources and all outputs.
 See [Drive](https://drive.google.com/drive/folders/10ctH-vA0Qny44CdsPiq4PfWyIhdpwddL?usp=sharing)
 
-## Model Summaries
 
-
-## Model Training and Outcomes
-
-
-## Comparisons 
 
 ## Resources
 
