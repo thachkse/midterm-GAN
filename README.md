@@ -36,10 +36,10 @@ To implement this code locally begin with the `start.py`. This file will help in
 
 3. `compare-models.ipynb` is used to train *Model B*. Model B utilizes the SRGAN images to train a binary classifier. This training will use the same model in `Model A`. After training the model, the performance of `Model A` is compared to `Model B`. This notebook corresponds with **Part 3**.
 
-### Actual Colab scripts
+### Actual Colab scripts, training and outputs
 
-Click on the ink below to view and try out the training in Google CoLab. 
-See [CoLab Code](https://drive.google.com/file/d/1acxD701rilkEWaVNHjSInDNiU3-LQXqH/view?usp=drive_link)
+Click on the link below to view the full training in Google CoLab. 
+See [Drive](https://drive.google.com/drive/folders/10ctH-vA0Qny44CdsPiq4PfWyIhdpwddL?usp=sharing)
 
 ## Model Summaries
 
